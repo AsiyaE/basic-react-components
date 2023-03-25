@@ -1,0 +1,49 @@
+html{
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size: 60px;
+}
+.App{
+	min-height: 100vh;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.App div{
+	text-align:center;
+}
+
+button{
+	padding:5px 10px;
+	border-radius: 10px;
+	cursor:pointer;
+	color: white;
+
+	&:hover {
+		transform: translate(0, 3px);
+		transition: transform 0.5s;
+		border-bottom: 1px solid rgb(143, 60, 60);
+	}
+
+}
+.minus{
+	margin-right:10px;
+	background-color: rgb(226, 66, 66);
+	border: 1px solid rgb(143, 60, 60);
+	border-bottom: 3px solid rgb(143, 60, 60);
+	
+	&:hover {
+		transform: translate(0, 3px);
+		transition: transform 0.5s;
+	}
+}
+.plus{
+	background-color: rgb(55, 184, 145);
+	border: 1px solid rgb(121, 83, 83);
+	border-bottom: 3px solid rgb(121, 83, 83);
+}
